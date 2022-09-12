@@ -1,5 +1,5 @@
 CC = g++
-CXXFLAGS = -Wall -fno-stack-protector -Ofast -flto -Wl,-rpath='./'
+CXXFLAGS = -Wall -fno-stack-protector -Ofast -flto -Wl,-rpath="$$ORIGIN/usr/lib/libdiscord-rpc.so"
 
 
 TARGET = discord-rpc
